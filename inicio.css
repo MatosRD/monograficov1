@@ -1,0 +1,992 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    display: flex;
+    width: 100%;
+    height: 50px;
+    border-bottom: 1px solid rgba(2, 2, 2, 0.227);
+}
+
+
+.header .menu{
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+}
+
+.header .menu ul{
+    display: flex ;
+    text-decoration: none;
+    list-style: none;
+}
+
+.header .menu ul li{
+    text-decoration: none;
+    list-style: none;
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.9s all ease;
+}
+
+.header .menu ul li:hover{
+    scale: 0.9;
+    opacity: 0.7;
+
+}
+
+.header .menu .botton {
+    border: 1px solid black;
+    display: flex;
+ border-radius: 50%;
+ width: 35px;
+ height: 35px;
+ cursor: pointer;
+ position: relative;
+    
+}
+
+.header .menu .bottonn {
+ 
+    display: flex;
+border: none;
+    
+}
+
+
+#menus{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 45px;
+    right:  1px;
+    background: rgba(199, 198, 198, 0.829);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    border-radius: 5px;
+    display: none;
+    margin: auto;
+ 
+
+}
+
+#menus a{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin-top: 15px;
+
+}
+
+.header .menu .botton button{
+    
+    border: none; 
+    width: 100px;
+    height: 35px;
+    margin: 10px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.header .menu .bottonn button{
+    
+    border: none; 
+    width: 100px;
+    height: 35px;
+    margin: 10px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.header .menu .bottonn .mm{
+    background: rgb(28, 188, 28); 
+    color: white; 
+}
+
+.header .menu .bottonn .nn{
+    background: seashell; 
+    color: black; 
+}
+
+.lop{
+    display: flex;
+    width: 100%;
+    justify-content: center;    
+}
+
+.lop .lop2{
+    margin-top: 100px;
+    text-align: center;
+}
+
+.lop .lop2 h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.lop .lop2 p{
+    font-size: 17px;
+}
+
+.cont{
+    display: flex;
+    width: 70%;
+    border: 1px solid rgba(0, 0, 0, 0.33);
+    justify-content: center;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+
+
+.cont .cont_2{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+}
+
+.cont .cont_2 .imagen { 
+    width: 1900px;
+    height: 400px;
+    border-radius: 100% 0% 0% 100% / 100% 50% 50% 0% ;
+    overflow: hidden; /* Evita que la imagen sobresalga */
+    display: flex; /* Para alinear correctamente el contenido */
+    justify-content: right;
+    margin-left: 100px;
+}
+
+.cont .cont_2 img { 
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin-left: -100px;
+}
+
+.cont .cont_2 .des{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px 0px 0px 50px;
+    text-align: justify;
+    font-size: 17px;
+}
+
+.cont .cont_2 .des h2{
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:30px;
+    font-weight:900 ;
+}
+
+.cont .cont_2 .des button{
+    margin-top: 8px;
+    width: 100px;
+    height: 38px;
+    background:  rgb(28, 188, 28); 
+    color: white;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    transition: 0.9s all ease;
+}
+
+.cont .cont_2 .des button:hover{
+    scale: 1.1;
+    opacity: 0.7;
+}
+
+.lema{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.lema .lema_0 .lema_2{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.lema .lema_0 .lema_2 .vis{
+    margin: 20px;
+    padding: 50px;
+    border-radius: 5px;
+    background: rgba(249, 249, 249, 0.866);
+    box-shadow: -6px 13px 30px -15px rgba(0,0,0,0.75);
+}
+
+.lema .lema_0 .lema_2 .vis p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    text-align: justify;
+}
+
+.lema .lema_0 .lema_2 .vis h2{
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.lema .lema_0{
+    display: flex;
+    width: 80%;
+}
+
+.lema .lema_0 .mag{
+    margin-top: 50px;
+}
+
+.cent{
+    display: flex;
+    margin: auto;
+    margin-top: 100px;
+    width: 40%;
+    justify-content: center;
+    text-align: center;
+
+    border-bottom: 1px solid black;
+}
+
+.cent h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.progrm{
+    width: 100%;
+    background: rgba(244, 242, 242, 0.844);
+}
+
+.progrm .progrm2{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin: auto;
+    flex-wrap: wrap;
+    
+}
+
+.progrm2{
+    width: 60%;
+    background: rgba(244, 242, 242, 0.844);
+    margin-top: 20px;
+    margin-left:500px;
+}
+
+.progrm2 .progrm22{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin: auto;
+    flex-wrap: wrap;
+    
+}
+
+.cent2{
+    width: 100%;
+    margin-top: 80px;
+    display: flex;
+   font-size: 25px;
+   font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+}
+
+.progrm .progrm2 .car{
+    background: white;
+    margin: 40px 10px;
+    padding: 10px;
+    display: flex;
+    width: 430px;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: -6px 13px 17px -15px rgba(0,0,0,0.75);
+}
+
+.progrm .progrm2 .car .descrip{
+    width: 290px;
+    margin: 10px;
+    word-wrap: break-word;
+}
+
+.progrm .progrm2 .car .descrip .con{
+    display: flex;
+}
+
+.progrm .progrm2 .car .descrip .con p{
+    margin-top: 10px;
+}
+
+.progrm .progrm2 .car .descrip h2{
+    margin-bottom: 5px;
+}
+
+.progrm .progrm2 .car .per{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    overflow: hidden; /* Evita que la imagen sobresalga */
+    display: flex; /* Para alinear correctamente el contenido */
+    justify-content: center;
+    margin: auto;
+}
+
+.progrm .progrm2 .car .descrip img{
+    width: 40px;
+}
+
+.progrm .progrm2 .car .per img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/*ss*/
+.progrm2 .progrm22 .car2{
+    background: white;
+    margin: 40px 30px;
+    padding: 10px;
+    display: flex;
+    width: 430px;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: -6px 13px 17px -15px rgba(0,0,0,0.75);
+}
+
+.progrm2 .progrm22 .car2 .descrip2{
+    width: 290px;
+    margin: 10px;
+    word-wrap: break-word;
+}
+
+.progrm2 .progrm22 .car2 .descrip2 .con2{
+    display: flex;
+    margin-top: 10px;
+}
+
+.progrm2 .progrm22 .car2 .descrip2 .con2 p{
+    margin-top: 10px;
+}
+
+.progrm2 .progrm22 .car2 .descrip2 .con2 a {
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin-left: 20px;
+    
+    
+}
+
+.progrm2 .progrm22 .car2 .descrip2 h2{
+    margin-bottom: 5px;
+}
+
+.progrm2 .progrm22 .car2 .per2{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    overflow: hidden; /* Evita que la imagen sobresalga */
+    display: flex; /* Para alinear correctamente el contenido */
+    justify-content: center;
+    margin: auto;
+}
+
+.progrm2 .progrm22 .car2 .descrip2 img{
+    width: 40px;
+}
+
+.progrm2 .progrm22 .car2 .per2 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    flex-direction: left;
+}
+
+#limpio{
+    display: none;
+}
+
+/*ss*/
+.mapa{
+    display: flex;
+    width: 100%;
+    margin: auto;
+    justify-content: center;
+}
+
+.mapa .mapa1{
+    width: 90%;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.mapa .mapa1 h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+
+.mapa .mapa1 .imagen{
+    width: 70% ;
+    margin: auto;
+    border: 1px solid rgba(0, 0, 0, 0.433);
+}
+
+.mapa .mapa1 .imagen img{
+width: 100%;
+height: 500px;
+}
+
+/*footer*/
+
+
+/*footer*/
+
+footer{
+    opacity: 0.9;
+    width: 100%;
+    
+    margin-top: 0;
+    background-size: cover;
+    background-image: url(footer-background.png);
+}
+
+.cont_foter{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: auto;
+    padding: 10px;
+    
+}
+
+.inf_foter{
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: center;
+    margin-top: 100px;
+    
+    
+}
+
+
+.inf_foter .one img{
+    width: 50px;
+    
+}
+
+.one{
+    
+    display: flex;
+    flex-direction: column;
+    padding: 40px; 
+    
+}
+
+.one h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+}
+
+.one p{
+    padding: 5px 0;
+    color: white;
+}
+
+
+.one a{
+   display: flex;
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+}
+
+.one a img{
+    width: 10px;
+    font-size: 10px;
+    
+}
+
+.one i{
+    margin:0 5px;
+    transition: ease all 0.7s;
+}
+
+.one a:hover {
+    opacity: 0.9;
+}
+.one a:hover i{
+    color: #69F1a1;
+}
+
+/*EMPRESA*/
+.dos{
+    width: 100%;
+    display: flex;
+    justify-content: center;    
+}
+
+.dos .dos_1{
+    display: flex;
+    width: 80%;
+    flex-wrap: wrap;
+    flex-direction: row;
+    
+}
+
+.dos .dos_1 .form{
+    display: flex;
+}
+
+.dos .dos_1 .form form{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    max-height: 900px;
+    border: 1px solid rgba(0, 0, 0, 0.336);
+    margin: 20px;
+    padding: 10px;
+    border-radius:5px ;
+    box-shadow: -6px 13px 30px -15px rgba(0,0,0,0.75);
+}
+
+.dos .dos_1 .form form h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: 800;
+    text-align: center;
+  
+}
+
+.dos .dos_1 .form form label{
+    margin-bottom: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.dos .dos_1 .form form input{
+    margin-bottom: 15px;
+}
+
+.dos .dos_1 .traer{
+    margin: 20px 0px 40px 60px;
+}
+
+.dos .dos_1 .traer table {
+    width: 800px;
+    border-collapse: collapse;
+    border: 1px solid rgba(0, 0, 0, 0.336);
+}
+
+/* Estilo para encabezados */
+.dos .dos_1 .traer table thead tr th {
+    background: rgba(3, 141, 3, 0.815);
+    color: white;
+    padding: 15px 30px; /* Reducido para evitar columnas demasiado anchas */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-align: center;
+    
+}
+
+/* Estilo para celdas del cuerpo */
+.dos .dos_1 .traer table tbody tr td {
+    width:  100px; /* Asegura un tamaño mínimo sin forzar un ancho fijo */
+    height: auto;
+    padding: 10px; /* Mejora la separación del contenido */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    overflow: hidden;
+    text-align: center; /* Centra el contenido */
+    border: 1px solid rgba(0, 0, 0, 0.336);
+}
+
+#oooww{
+    width: 500px;
+    border: 1px solid rgba(0, 0, 0, 0.336);
+    color: rgba(0, 0, 247, 0.747);
+    color: rgba(0, 128, 0, 0.699);
+    text-decoration: none;
+    color: rgb(17, 110, 8);
+    text-decoration: none;
+}
+
+#exi{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    font-size: 20px;
+    color: green;
+}
+#eliminar{
+    padding:10px 8px;  
+    border-radius:5px;
+    color:white; 
+    text-decoration: none; 
+    background:red; 
+}
+
+/*desarrolladores*/
+.filtro{
+position: fixed;
+top: 180px;
+left: 10px;
+width: 400px;
+}
+
+.filtro .filtro2{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin: 20px;
+}
+
+.filtro .filtro2 form{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.filtro .filtro2 h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.filtro .filtro2 form label{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.filtro .filtro2 form button{
+    width: 100px;
+    height: 35px;
+    background: rgb(28, 188, 28); 
+    color: white;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: 0.9s all ease;
+    margin-bottom: 30px;
+}
+.filtro .filtro2 form{
+    border-bottom:1px solid rgba(0, 0, 0, 0.493) ;
+}
+
+#linea{
+    margin-top: 30px;
+    border-bottom:1px solid rgba(0, 0, 0, 0.493) ;
+}
+
+.filtro .filtro2 a{
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin-top: 30px;
+    transition: all 0.5s ease;
+}
+.filtro .filtro2 a:hover{
+    opacity: 0.7; 
+}
+
+/*editar*/
+
+.ed{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+
+}
+
+.ed .ed_1 h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: 800;
+    text-align: center;
+    
+}
+
+
+.ed .ed_1{
+    display: flex;
+    width: 400px;
+    justify-content: center;
+    margin: auto;
+    border: 1px solid rgba(0, 0, 0, 0.336);
+    flex-direction: column;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: -6px 13px 30px -15px rgba(0,0,0,0.75);
+}
+
+.ed .ed_1 .equis{
+    display: flex;
+    margin-left: 380px;
+    margin-top: -20px;
+}
+
+.ed .ed_1 .equis a{
+    text-decoration: none;
+    color: red;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.ed .ed_1 form{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.ed .ed_1 form .editar {
+    margin-top: 10px;
+   padding: 10px 8px;  
+    border-radius: 5px;
+    color: white; 
+    text-decoration: none; 
+    background: rgb(28, 188, 28); 
+    border: none;
+    cursor: pointer;
+    transition: 0.9s all ease;
+}
+
+/*perfil*/
+
+.perfil{
+    display: flex;
+    width: 100%;
+}
+
+.perfil .perfil_1{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin: auto;
+}
+
+.perfil .perfil_1 form{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    max-height: auto;
+    border: 1px solid rgba(0, 0, 0, 0.336);
+    margin: 20px;
+    padding: 20px;
+    border-radius:5px ;
+    box-shadow: -6px 13px 30px -15px rgba(0,0,0,0.75);
+}
+
+.perfil .perfil_1 form .foto{
+    width: 400px;
+    height: 400px;
+  
+    overflow: hidden; /* Evita que la imagen sobresalga */
+    display: flex; /* Para alinear correctamente el contenido */
+    justify-content: center;
+    margin: auto;
+    flex-direction: column;
+}
+
+.perfil .perfil_1 form .foto img{
+    display: flex;
+    width: 100%;
+
+    border-radius: 50%;
+    border: 1px solid rgba(0, 0, 0, 0.336);
+    justify-content: center;
+    margin: auto;
+  
+}
+
+.perfil .perfil_1 form .cont{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-left: 40px;
+    width: 800px;
+    padding:20px;
+    border: none;
+    margin-top: -10px;
+
+}
+
+.perfil .perfil_1 form .cont label{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.perfil .perfil_1 form .cont input{
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.336);
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+}
+
+/*vacante desarrollador*/
+
+.vancan{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin: auto;
+    border: 1px solid black;
+}
+
+.vancan .vancan1{
+    width: 60%;
+    background: rgba(244, 242, 242, 0.844);
+    margin-top: 20px;
+    margin-left:400px;
+ 
+}
+.vancan .vancan1  h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: 800;
+   
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.vancan .vancan1 .vancan3{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    margin: auto;
+    flex-wrap: wrap;
+    border: 1px solid rgba(0, 0, 0, 0.253);
+    background: #f5f5f5;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    box-shadow: -6px 13px 15px -15px rgba(0,0,0,0.75);
+    padding: 10px;
+   
+}
+
+.vancan .vancan1 .vancan3 h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: 800;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.vancan .vancan1 .vancan3 p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    text-align: justify;
+    margin-bottom: 10px;
+}
+
+#mood{
+    padding: 10px 20px;  
+     border-radius: 5px;
+     color: white; 
+     text-decoration: none; 
+     background: rgb(28, 188, 28); 
+     border: none;
+     cursor: pointer;
+     transition: 0.9s all ease;
+     font-family: Arial, Helvetica, sans-serif;
+}
+
+#mood1{
+    padding: 7px 20px;  
+     border-radius: 5px;
+     color: white; 
+     text-decoration: none; 
+     background: red; 
+     border: none;
+     cursor: pointer;
+     transition: 0.9s all ease;
+     font-family: Arial, Helvetica, sans-serif;
+}
+
+.selet{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.selet .selet2 img{
+    width: 600px;
+    height: 500px;
+
+}
+
+.selet .selet2 .selt3{
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.274);
+    box-shadow: -6px 13px 30px -15px rgba(0,0,0,0.75);
+
+}
+
+.selet .selet2 .selt3 h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: 800;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.selet .selet2 .selt3 .selt4{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin: auto;
+    flex-direction: row;
+    margin: 10px;
+}
+
+.selet .selet2 .selt3 .selt4 a{
+    text-decoration: none;
+   
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin-top: 30px;
+    transition: all 0.5s ease;
+    padding: 10px 8px;
+    border-radius: 5px;
+    background: rgb(28, 188, 28);
+    color: white;
+    border: none;
+    margin: 10px;
+}
+
+.selet .selet2 .selt3 .selt4 a:hover{
+    opacity: 0.7; 
+}
