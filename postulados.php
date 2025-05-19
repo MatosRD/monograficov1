@@ -37,7 +37,7 @@ if (empty($_SESSION["id"]) || $_SESSION["rol"] != "Empresa") {
                     include "conexion.php";
                     $id = $_SESSION["correo"];
                 
-                    $mostrar = mysqli_query($conexion, "SELECT * FROM personal WHERE correo = '$id' ORDER BY id_postulados DESC");
+                    $mostrar = mysqli_query($conexion, "SELECT * FROM personal WHERE correo = '$id' ");
 
                     while($fila = $mostrar->fetch_assoc()){ 
                         if(empty($fila['foto'])){
@@ -67,10 +67,10 @@ if (empty($_SESSION["id"]) || $_SESSION["rol"] != "Empresa") {
     </div>
 
 
-    <div class="vancan" style="border: none;">
-    <div class="vancan1" style=" margin-left:0px;">
+    <div class="vancan" style="border: none;  ">
+    <div class="vancan1" style=" margin-left:0px; background:white;">
         <form action="" method="post">
-            <input type="text" name="buscar" placeholder="Nombre de la vacante" style="width: 400px; height: 40px; padding-left:10px; border:1px solid rgba(0, 0, 0, 0.253); background:#f5f5f5; border-radius: 10px; margin-top: 10px; margin-bottom: 20px;" />
+            <input type="text" name="buscar" placeholder="Nombre de la vacante" style="width: 400px; height: 40px; padding-left:10px; border:1px solid rgba(0, 0, 0, 0.253); background:white; border-radius: 10px; margin-top: 10px; margin-bottom: 20px;" />
             
             
             <label style="margin-top: 15px;" for="favoriteOnly11"></label>

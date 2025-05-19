@@ -61,7 +61,7 @@ if (empty($_SESSION["id"]) || $_SESSION["rol"] != "Empresa") {
             <p>Te ayudamos a conseguir una oportunidad para el crecimiento de tu negocio o empresa que espera
                 <br> para navegar en nuetra pagina no esperes mas. 
             </p>
-            <img src="empresa.gif" alt="">
+            <img style="height: 450px;" src="empresa.gif" alt="">
            <div class="van">
            <a href="crear_vacante.php" style="padding: 15px 45px; border:none; text-decoration:none; color:white; background:green; border-radius:5px; cursor:pointer; ">Vacante</a>
            </div>

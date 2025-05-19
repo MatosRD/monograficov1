@@ -104,8 +104,10 @@ if (empty($_SESSION["id"]) || $_SESSION["rol"] != "Empresa") {
                         min="10000"
                         max="500000"
                         step="100"
-                        value="250000" />
-                        <output class="price-output" for="price" required ></output>
+                        value="75000" 
+                        oninput="formatPrice()" 
+                        />
+                        <output id="priceOutput" class="price-output" for="price"></output>
                         <label style="margin-top: 15px;" for="favoriteOnly1">Tiempo a realizar:</label>
                     <select  style="height: 33px; border-radius: 10px; margin-bottom:10px;" name="timpo" id="timpo" required >
                     <option>1 semanas</option>
@@ -233,14 +235,7 @@ if (empty($_SESSION["id"]) || $_SESSION["rol"] != "Empresa") {
         </div>
     </div>
 <script>
-    const price = document.querySelector("#price");
-    const output = document.querySelector(".price-output");
 
-    output.textContent = price.value;
-
-    price.addEventListener("input", function () {
-    output.textContent = price.value;
-    });
 
     ClassicEditor
     .create( document.querySelector( '#editor' ) )
@@ -259,6 +254,17 @@ if (empty($_SESSION["id"]) || $_SESSION["rol"] != "Empresa") {
         elemento.style.display = "none";
         }
     }
+
+  
+function formatPrice() {
+    const priceInput = document.getElementById('price');
+    const priceOutput = document.getElementById('priceOutput');
+    const formatted = Number(priceInput.value).toLocaleString();
+    priceOutput.value = formatted;
+}
+
+
+formatPrice();
 
 
 

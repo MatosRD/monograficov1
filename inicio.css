@@ -553,9 +553,10 @@ footer{
 
 .dos .dos_1{
     display: flex;
-    width: 80%;
+    width: 90%;
     flex-wrap: wrap;
     flex-direction: row;
+    
     
 }
 
@@ -655,7 +656,7 @@ footer{
 /*desarrolladores*/
 .filtro{
 position: fixed;
-top: 180px;
+top: 130px;
 left: 10px;
 width: 400px;
 }

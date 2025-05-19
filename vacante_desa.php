@@ -24,7 +24,7 @@ if (empty($_SESSION["id"]) || $_SESSION["rol"] != "Desarrollador") {
                 <img src="bandera.png" alt="" style="width: 50px; height: 35px; margin: 8px;">
                 <li><a href="vacante_desa.php" style="text-decoration:none; color:black;" >Buscar vacante</a></li>
                 <li><a href="proyecto_desa.php" style="text-decoration:none; color:black;" >Buscar Proyector</a></li>
-                <li><a href="postulaciones.php" style="text-decoration:none; color:black;" >postulaciones</a></li>
+                <li><a href="postulaciones.php" style="text-decoration:none; color:black;" >Postulaciones</a></li>
                 <li><a href="perfil_desa.php" style="text-decoration:none; color:black;" >Perfil</a></li>
             </ul>
 
@@ -94,7 +94,7 @@ if (empty($_SESSION["id"]) || $_SESSION["rol"] != "Desarrollador") {
 </div>          
 
 <div class="vancan" style="border: none;">
-    <div class="vancan1">
+    <div class="vancan1" style="background: white;">
         <h1>Vacantes</h1>
         <div class="vancan2">
             
@@ -108,7 +108,7 @@ if (empty($_SESSION["id"]) || $_SESSION["rol"] != "Desarrollador") {
                     echo '<p><strong>Especialidad:</strong> ' . $fila['especialidad'] . '</p>';
                     echo '<p><strong>Descripcion:</strong> ' . $fila['descripcion'] . '</p>';
                     echo '<p><strong>Ubicacion:</strong> ' . $fila['ubicacion'] . '</p>';
-                    echo '<p><strong>Sueldo:</strong> ' . $fila['suerdo'] . '</p>';
+                    echo '<p><strong>Sueldo:</strong> ' . number_format($fila['suerdo'], 2) . '</p>';
                     echo '<p style="margin-bottom:30px;"><strong>Fecha de la vacante:</strong> ' . $fila['fecha'] . '</p>';
                     echo '<a href="crear_postulacion.php?id=' . $fila['id_vacante'] . '" style="text-decoration:none; color:white; background:green; padding:10px 20px; text-align: center; border-radius:5px;">Postular</a>';
                     echo '</div>';
@@ -139,7 +139,7 @@ if (empty($_SESSION["id"]) || $_SESSION["rol"] != "Desarrollador") {
                             echo '<p><strong>Especialidad:</strong> ' . $fila['especialidad'] . '</p>';
                             echo '<p><strong>Descripcion:</strong> ' . $fila['descripcion'] . '</p>';
                             echo '<p><strong>Ubicacion:</strong> ' . $fila['ubicacion'] . '</p>';
-                            echo '<p><strong>Sueldo:</strong> ' . $fila['suerdo'] . '</p>';
+                            echo '<p><strong>Sueldo:</strong> ' . number_format($fila['suerdo'], 2) . '</p>';
                             echo '<p style="margin-bottom:30px;"><strong>Fecha de la vacante:</strong> ' . $fila['fecha'] . '</p>';
                             echo '<a href="crear_postulacion.php?id=' . $fila['id_vacante'] . '" style="text-decoration:none; color:white; background:green; padding:10px 20px; text-align: center; border-radius:5px;">Postular</a>';
                             echo '</div>';
